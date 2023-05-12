@@ -33,9 +33,6 @@ public class DreieckEigenschaften {
             else if ((seite_a != seite_b) && (seite_a != seite_c) && (seite_b != seite_c)) {
                 System.out.println("Es handelt sich um ein unregelmäßiges Dreieck");
             }
-
         }
-
     }
-
 }
