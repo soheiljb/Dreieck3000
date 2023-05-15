@@ -13,7 +13,7 @@ public class DreieckEigenschaften {
         return zahl < 1 || zahl > 99;
     }
 
-    //Prüfe ob die Seiten ein Dreieck ergeben
+    //Prüfe zuerst ob die Seiten ein Dreieck ergeben und anschließend um welche Art Dreieck es sich handelt
     public void dreiecksPruefung(){
         if(((seite_a + seite_b) < seite_c) || ((seite_a + seite_c) < seite_b) || ((seite_b + seite_c) < seite_a)) {
             System.out.println("Die drei Seiten ergeben kein Dreieck");
